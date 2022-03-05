@@ -3,6 +3,11 @@ body{
 }
 
 img{
+    height: 40rem;
+}
+
+.img{
+    display: flex;
     justify-content: center;
-    height: 20rem;
+    padding: .26rem;
 }
