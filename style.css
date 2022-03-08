@@ -2,12 +2,74 @@ body{
     background-color: rgb(229, 207, 238);
 }
 
-img{
+#img{
     height: 40rem;
 }
 
-.img{
+.pcAntigo{
     display: flex;
     justify-content: center;
     padding: .26rem;
+}
+
+#centralizar_buttonPaper{
+    position:absolute; 
+    top:25%;
+    left:50%;
+    transform: translate(-106%, -50%);
+}
+
+#centralizar_buttonScissor{
+    position:absolute; 
+    top:25%;
+    left:50%;
+    transform: translate(6%, -50%);
+}
+
+#centralizar_buttonStone{
+    position:absolute; 
+    top:37%;
+    left:40%;
+    transform: translate(30%, -10%);
+}
+
+#centralizar{
+    position:absolute; 
+    top:58%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+/* #buttonPlay{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 1em;
+    font-size: 2rem;
+}
+ */
+
+#paper{
+    height: 8rem;
+    width: 10rem;
+    border-radius: 1em;
+}
+
+#scissor{
+    height: 8rem;
+    width: 10rem;
+    border-radius: 1em;
+}
+
+#stone{
+    height: 8rem;
+    width: 10rem;
+    border-radius: 1em;
+}
+
+.text{
+    position:absolute; 
+    top:40%;
+    left:16%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
 }
