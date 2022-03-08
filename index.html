@@ -8,15 +8,33 @@
     <title>Pedra, Papel e Tesoura</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <script src="main.js"></script>
     <!-- <script src="main.js"></script> -->
 </head>
 
 <body>
     <main>
         <div class="pcAntigo">
+            <div>
+                <div id="centralizar_buttonPaper">
+                    <a href="" onclick="Papel()"><img src="./img/papel.png" alt="" id="paper"></a>
+                </div>
+                <div id="centralizar_buttonScissor">
+                    <a href="" onclick="tesoura()"><img src="./img/tesoura.png" alt="" id="scissor"></a>
+                </div>
+                <div id="centralizar_buttonStone">
+                    <a href="" onclick="pedra()"><img src="./img/pedra.png" alt="" id="stone"></a>
+                </div>
+                <!-- <div id="centralizar">
+                    <a href=""><button id="buttonPlay">Jogar</button></a>
+                </div> -->
+            </div>
             <img id="img" src="pcantigo.png" alt="Coputador Antigo">
         </div>
     </main>
+    <section>
+        <h2 class="text">Escolha entre Papel <br>Pedra ou Tesoura</h2>
+    </section>
 </body>
 
 </html>
