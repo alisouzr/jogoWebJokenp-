@@ -9,28 +9,11 @@ body{
 .pcAntigo{
     display: flex;
     justify-content: center;
-    padding: .26rem;
+    padding: 15.26rem;
 }
 
-#centralizar_buttonPaper{
-    position:absolute; 
-    top:25%;
-    left:50%;
-    transform: translate(-106%, -50%);
-}
-
-#centralizar_buttonScissor{
-    position:absolute; 
-    top:25%;
-    left:50%;
-    transform: translate(6%, -50%);
-}
-
-#centralizar_buttonStone{
-    position:absolute; 
-    top:37%;
-    left:40%;
-    transform: translate(30%, -10%);
+.org{
+    display: flex;
 }
 
 #centralizar{

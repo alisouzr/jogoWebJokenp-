@@ -1,28 +1,37 @@
 var usuario
 
-var lista = ['papel', 'pedra', 'tesoura']
-comp = lista[Math.floor(Math.random() * lista.length)]
+lista = ['papel', 'pedra', 'tesoura']
+var comp = lista[Math.floor(Math.random() * lista.length)]
 
-/* console.log(comp) */
+const paper = document.getElementById("radio-paper")
+console.log(comp)
 
-/* document.getElementById("papel").onclick = function () {
+if (paper.checked) {
+    resultado = document.getElementById("text")
     usuario = "papel"
-    console.log(usuario)
     if (comp == "papel") {
-        console.log("Empate")
+        resultado.innerHTML = "EMPATE"
+    }
+}
+
+/* function Papel() {
+    resultado = document.getElementById("text")
+    usuario = "papel"
+    if (comp == "papel") {
+        resultado.innerHTML = "EMPATE"
     }
 } */
 
-document.getElementById("pedra").onclick = function () {
-    usuario = "pedra"
-    if (comp == "pedra") {
+function Tesoura() {
+    usuario = "tesoura"
+    if (comp == "tesoura") {
         console.log("Empate")
     }
 }
 
-document.getElementById("tesoura").onclick = function () {
-    usuario = "tesoura"
-    if (comp == "tesoura") {
+function Pedra() {
+    usuario = "pedra"
+    if (comp == "pedra") {
         console.log("Empate")
     }
 }
